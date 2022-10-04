@@ -1,54 +1,35 @@
-.bg-white{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.bg-white a{
+.bg-white {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .bg-white a {
     text-decoration: none;
-    text-size-adjust: 150%;
-}
-
-.bg-white a:link{
-    color: black;
-}
-
-.bg-white a:visited{
-    color: black;
-}
-.bg-white a:hover{
-    transform: scale(1.25);
-    transition: all 1s ease;
-}
-
-
+    text-size-adjust: 150%; }
+    .bg-white a:link {
+      color: black; }
+    .bg-white a:visited {
+      color: black; }
+    .bg-white a:hover {
+      transform: scale(1.25);
+      transition: all 1s ease; }
 
 /* FOOTER */
+.df-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white; }
 
-.df-footer{
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    background-color: white;
+.col a:link {
+  color: black; }
 
-}
+.col a:visited {
+  color: black; }
 
-.col a i{
-    font-size: 25px;
-    text-align: center;
-    padding: 5px 10px;
-}
-
-.col a:link{
-    color: black;
-}
-
-.col a:visited{
-    color: black;
-}
-
-.col a i:hover{
+.col a i {
+  font-size: 25px;
+  text-align: center;
+  padding: 5px 10px; }
+  .col a i:hover {
     transform: scale(1.25);
-    transition: all 1s ease;
-}
-
+    transition: all 1s ease; }
