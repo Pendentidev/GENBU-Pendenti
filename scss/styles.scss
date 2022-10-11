@@ -1,3 +1,24 @@
+$blanco: white;
+$negro: black;
+
+body{
+    height: 92%;
+}
+
+html{
+    height: 92%;
+}
+.wrap{
+    min-height: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+        &:after{
+            content: "";
+            display: block;
+        }
+
+}
+
 .bg-white{
     display: flex;
     align-items: center;
@@ -8,10 +29,10 @@
         text-size-adjust: 150%;
         
         &:link{
-            color: black;
+            color: $negro;
         }
         &:visited{
-            color: black;
+            color: $negro;
         }
         &:hover{
             transform: scale(1.25);
@@ -27,17 +48,17 @@
     display: flex;
     justify-content:space-around;
     align-items: center;
-    background-color: white;
+    background-color: $blanco;
 
 }
 
 .col a{
         &:link{
-        color: black;
+        color: $negro;
         }
 
         &:visited{
-        color: black;
+        color: $negro;
         }
 
         i{

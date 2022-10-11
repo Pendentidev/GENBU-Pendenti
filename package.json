@@ -1,7 +1,7 @@
 {
-  "name": "proyecto_final",
+  "name": "genbu",
   "version": "1.0.0",
-  "description": "",
+  "description": "Marca de ropa, Proyecto Final Coder",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1", 
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/Pendentidev/GENBU-Pendenti.git"
   },
-  "author": "",
+  "author": "Pedro Pendenti",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Pendentidev/GENBU-Pendenti/issues"
