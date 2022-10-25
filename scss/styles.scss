@@ -3,10 +3,19 @@ $negro: black;
 
 body{
     height: 92%;
+    background-color: rgb(211, 215, 216)
 }
 
 html{
     height: 92%;
+}
+
+.white{
+    color: $blanco;
+}
+
+.gray{
+    color: rgb(121, 120, 120);
 }
 .wrap{
     min-height: 100%;
@@ -23,7 +32,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    background-color: $blanco;
     a{
         text-decoration: none;
         text-size-adjust: 150%;
@@ -41,7 +50,14 @@ html{
     }
 }
 
+.bg-white2{
+    background-color: $blanco;
+}
 
+
+h3{
+    font-size: 0.9rem;
+}
 /* FOOTER */
 
 .df-footer{

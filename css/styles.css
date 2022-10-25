@@ -1,8 +1,15 @@
 body {
-  height: 92%; }
+  height: 92%;
+  background-color: #d3d7d8; }
 
 html {
   height: 92%; }
+
+.white {
+  color: white; }
+
+.gray {
+  color: #797878; }
 
 .wrap {
   min-height: 100%;
@@ -15,7 +22,8 @@ html {
 .bg-white {
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  background-color: white; }
   .bg-white a {
     text-decoration: none;
     text-size-adjust: 150%; }
@@ -26,6 +34,12 @@ html {
     .bg-white a:hover {
       transform: scale(1.25);
       transition: all 1s ease; }
+
+.bg-white2 {
+  background-color: white; }
+
+h3 {
+  font-size: 0.9rem; }
 
 /* FOOTER */
 .df-footer {
